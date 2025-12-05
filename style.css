@@ -109,12 +109,14 @@ body {
 @media (max-width: 768px) {
     body {
         flex-direction: column;
-        padding: 10px;
+        
         padding-top: 55%;
     }
     
     #siir {
         min-height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 100%;
         width: 100%;
     }
@@ -162,4 +164,18 @@ body {
         width: 20px;
         font-size: 1rem;
     }
+}
+
+.foto{
+    width: 100%;
+    height: auto;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    line-height: 0;
 }
